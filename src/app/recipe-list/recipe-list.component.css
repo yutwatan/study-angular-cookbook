@@ -1,0 +1,21 @@
+table {
+    border: solid black 1px;
+    border-collapse: collapse;
+}
+th {
+    background-color: lightgray;
+}
+td, th {
+    border: solid black 1px;
+    padding: 10px;
+}
+td#number {
+    text-align: right;
+}
+td#recipe_name {
+    width: 150px;
+}
+td#cook_minute {
+    text-align: center;
+    width: 100px;
+}
